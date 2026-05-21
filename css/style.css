@@ -229,3 +229,12 @@ h1, h2, h3, .font-poppins {
     margin-left: 0;
   }
 }
+
+/* Make sure pages are visible when active */
+.page-section {
+  display: none;
+}
+
+.page-section.active-page {
+  display: block !important;
+}
